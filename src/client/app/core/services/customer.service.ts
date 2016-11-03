@@ -9,7 +9,7 @@ import 'rxjs/add/observable/throw';
  * This class provides the NameList service with methods to read names and add names.
  */
 @Injectable()
-export class BorrowerService {
+export class CustomerService {
 
   /**
    * Creates a new NameListService with the injected Http.

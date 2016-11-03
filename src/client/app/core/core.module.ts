@@ -1,7 +1,7 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { BorrowerService } from './services/borrower.service';
+import { CustomerService } from './services/customer.service';
 import { EnsureModuleLoadedOnceGuard } from '../shared/guards/ensureModuleLoadedOnceGuard';
 
 
@@ -9,7 +9,7 @@ import { EnsureModuleLoadedOnceGuard } from '../shared/guards/ensureModuleLoaded
   imports: [ CommonModule ],
   declarations: [],
   exports: [ CommonModule ],
-  providers: [ BorrowerService ] // these should be singleton
+  providers: [ CustomerService ] // these should be singleton
 })
 export class CoreModule extends EnsureModuleLoadedOnceGuard {    //Ensure that CoreModule is only loaded into AppModule
 
