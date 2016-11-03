@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
-import { ToolbarComponent } from './toolbar/index';
-import { NavbarComponent } from './navbar/index';
+import { ToolbarComponent } from './components/toolbar/index';
+import { NavbarComponent } from './components/navbar/index';
 import { NameListService } from './name-list/index';
 
 /**

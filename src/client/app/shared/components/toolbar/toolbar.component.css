@@ -1,0 +1,38 @@
+:host {
+  background-color: #106cc8;
+  color: rgba(255, 255, 255, 0.87);
+  display: block;
+  height: 55px;
+  padding: 0 16px;
+}
+
+.app-title {
+  display: inline;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 0.1px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+}
+
+.app-title img{
+    
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 12px;
+ 
+ 
+}
+
+
+.more {
+  background: url("./assets/svg/more.svg");
+  float: right;
+  height: 24px;
+  margin-top: 12px;
+  width: 24px;
+}
+

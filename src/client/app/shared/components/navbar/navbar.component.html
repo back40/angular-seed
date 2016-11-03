@@ -1,0 +1,18 @@
+
+<nav>
+  <ul>
+    <li><a [routerLink]="['/']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><img src="./assets/img/wtb-logo-header.png" />NR</a></li>
+ 
+    <li class="dropdown">
+      <div href="#" class="dropbtn">new request</div>
+      <div class="dropdown-content">
+        <a href="#">new note</a>
+        <a [routerLink]="['/maintenance']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">maintenance</a>
+        <a href="#">renewal</a>
+      </div>
+    </li>
+ 
+      <li><a [routerLink]="['/about']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">my requests</a></li>
+  <li><a [routerLink]="['/about']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">about</a></li>
+  </ul>
+</nav>
